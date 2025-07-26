@@ -6,6 +6,11 @@ A full-stack **Book Store Application** built with the MERN Stack: **MongoDB, Ex
 
 ---
 
+## 💻 Live Demo 👇🏻
+[View Live Project](https://page-pilot-book-store-app.vercel.app)
+
+---
+
 ##  🛠️ Technologies Used
 
 - **Frontend**: React, React Router, Axios
@@ -24,11 +29,6 @@ A full-stack **Book Store Application** built with the MERN Stack: **MongoDB, Ex
 - MongoDB for Database integration
 - CORS policy handling for frontend-backend integration
 - Clean routing system on both frontend and backend
-
----
-
-## 💻 Live Demo 👇🏻
-[View Live Project] (https://page-pilot-git-main-shayaans-projects-4f005002.vercel.app)
 
 ---
 
