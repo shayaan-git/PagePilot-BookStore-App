@@ -8,9 +8,6 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 dotenv.config();
 
-const PORT = process.env.PORT || 5555;
-const mongoDBURL = process.env.mongoDBURL;
-
 const app = express();
 
 // Middleware for parsing request body
