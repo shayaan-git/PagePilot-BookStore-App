@@ -1,11 +1,16 @@
 import express, { response } from "express";
-import { PORT, mongodbURL } from "./config.js" ;
+// import { PORT, mongodbURL } from "./config.js" ;
 import mongoose from "mongoose";
 import { Book } from './models/bookModel.js';
 import booksRoute from './routes/booksRoute.js';
 import cors from 'cors';
 import dotenv from 'dotenv';
+
 dotenv.config();
+
+// Using environment variables instead of config.js for production deployment
+const PORT = process.env.PORT || 5555;
+const mongodbURL = process.env.mongodbURL || 'your-fallback-url';
 
 const app = express();
 
